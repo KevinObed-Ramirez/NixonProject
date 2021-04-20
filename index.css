@@ -1,3 +1,18 @@
+html{
+    background: url(SA6pejaxHdyYw5Xog4GeWf.jpg);
+    background-attachment: fixed;
+}
+
+body h1,h2{
+    background-color: aliceblue;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+div.row{
+    margin-left: 300px;
+}
+
 div.column{
     float: left;
     width: 33.33%; 
