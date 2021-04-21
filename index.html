@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,35 @@
     <link href="index.css" rel="stylesheet">
     <script src="index.js"></script>
 </head>
+
 <body>
     <h1 style="text-align: center;">Welcome to the Not Sketchy Voting Website!</h1>
     <h2 style="text-align: center;">Please select a candaite of your choice</h2>
 
-    <div class="row" style="text-align:center;">
-        <div class="column" id="nixon">
-        <figure>
-            <img src="download.jpg">
-            <button type="button" onclick="nixon()">Vote for Nixon</button>
+    <div class="cursors">
+
+            <div class="row" style="text-align:center;">
+                <div class="column" id="nixon">
+                        <div class="crosshair">
+                    <figure>
+                        <img src="download.jpg">      
+                        <button type="button" onclick="nixon()">Vote for Nixon</button>
+                </figure>
+            </div>
+            </div>
+        </div>
+
+        <div class="column" id="mcgovern">
+            <div class="not-allowed">
+                <figure>
+                    <img src="download-1.jpg">
+                    <button type="button" onclick="wrong()">Vote for McGovern</button>
+            </div>
         </div>
         </figure>
 
-        <div class="column" id="mcgovern">
-        <figure>
-            <img src="download-1.jpg">
-            <button type="button" onclick="wrong()">Vote for McGovern</button>
-        </div>
-        </figure>
-    
     </div>
 
 </body>
+
 </html>
